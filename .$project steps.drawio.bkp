@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
+  <diagram name="Page-1" id="4a83SlM5ULC48K0fHreG">
+    <mxGraphModel dx="864" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u6I_Qksfgo5zVSe5Pm4v-1" target="u6I_Qksfgo5zVSe5Pm4v-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-1" value="Loading data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-2" value="Data modelling" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="u6I_Qksfgo5zVSe5Pm4v-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="290" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-7" value="Data modelling" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="425" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-8" value="We will connect all the tables to create a star schema&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-9" value="Using DAX we will create all the calculations. In order to analyse the data we need to calculate diff measures/KPIs&lt;div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;&lt;b&gt;Below are the KPIs:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;b&gt;TotalSales&lt;/b&gt;&lt;div&gt;&lt;b&gt;TotalBoxes&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;TotalShipments&lt;br&gt;TotalCost&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;TotalProfit&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Profit%&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;LowBoxShipmentCount&lt;/b&gt;(&amp;gt;15 boxes per shipment)&lt;/div&gt;&lt;div&gt;&lt;b&gt;LowBoxShipment%&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;Later we will calulate the changes:&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MonthOnMonth&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;YearOnYear&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-50" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="u6I_Qksfgo5zVSe5Pm4v-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="480" y="300" />
+              <mxPoint x="480" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6I_Qksfgo5zVSe5Pm4v-11" target="u6I_Qksfgo5zVSe5Pm4v-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="370" />
+              <mxPoint x="840" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-11" value="Create Calender Table" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="630" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;u&gt;Calculate below calender measure:&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MonthOnMonth&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;YearOnYear&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="250" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-14" value="&lt;u&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;/u&gt; Calculate this type of complex calculations using multiple measure, we can use &lt;b&gt;Calculation groups&lt;/b&gt; to that combines the logic and pattern and applis on the measure that we want" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="390" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-15" value="&lt;b&gt;Calculation group&lt;/b&gt; is a collection of repetative calculation logic." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="480" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u6I_Qksfgo5zVSe5Pm4v-16" target="u6I_Qksfgo5zVSe5Pm4v-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1070" y="470" />
+              <mxPoint x="1070" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-16" value="Make a wireframe or mock of how the analysis will be" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-18" value="Use paper or PowerPoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-19" value="Quick Summary&lt;br&gt;&amp;amp;&lt;br&gt;Details&amp;nbsp;&lt;br&gt;view" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-20" value="Summary of the business on top in a bar which lists all the key numbers of business, such as &#39;Total Sales&#39;, &#39;Total Profit&#39;, &#39;MoM change&#39; etc. And on the top left of the bar add the company logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="851.25" y="580" width="177.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-21" value="The below white space can be used for all the details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="680" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-22" value="From the data model we have to understand what are the imp things that we need to present from Sales perspective. For rg. We can start the convo in respect to Product - how they are performing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="826.88" y="740" width="226.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-23" value="Details Visuals:&lt;br&gt;[Arrange high to low levels info from left to right in the details pane]&lt;br&gt;&lt;br&gt;Product performance (Col chart/bar chart) - products in 1 col and some key details about it&lt;br&gt;Sales Person Performance&lt;br&gt;etc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="826.88" y="840" width="226.25" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u6I_Qksfgo5zVSe5Pm4v-24" target="u6I_Qksfgo5zVSe5Pm4v-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-24" value="Page Design" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-26" value="By default, when you add a page in PBI its in 1280x720px&lt;br&gt;From Formatting -&amp;gt; anvas settings -&amp;gt; Custom -&amp;gt; 1920x1080 px" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1092.5" y="450" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-27" value="Select right kind of colours. Change to custom theme that goes well.&lt;div&gt;For eg City Park (inbuilt)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1107.5" y="600" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-28" value="KPI Cards" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-30" value="We will use the Card (new) visual for the Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="680" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-31" value="Add reference to each tile. Here we will add MoM change for each." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="740" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-32" value="&lt;u&gt;Add measure:&lt;/u&gt;&lt;br&gt;Latest Month sales&lt;br&gt;Latest MoM sales change %&lt;br&gt;[for the above measure we need Latest Date]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="607.5" y="540" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u6I_Qksfgo5zVSe5Pm4v-33" value="Add latest measures for all the other KPIs like above" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="620" width="130" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
