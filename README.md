@@ -1,7 +1,3 @@
-# awesome-chocolate-sales-dashboard
-Power BI dashboard for Awesome Chocolate Company analyzing sales trends, product performance, and regional growth. Features dynamic filters, interactive visuals, and strategic insights to support data-driven decisions and business planning.
-
-
 # 🍫 Awesome Chocolate Company - Sales Analysis Dashboard
 
 This Power BI project provides an interactive sales analytics dashboard for Awesome Chocolate Company, helping the business uncover insights into performance across regions, time, and product categories.
