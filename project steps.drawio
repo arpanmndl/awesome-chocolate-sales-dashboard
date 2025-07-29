@@ -142,7 +142,7 @@
         <mxCell id="5Kt1-s9WvIvMhqCdxv_F-18" value="We will make one Trend chart and add different tabs to switch between KPIs.&lt;br&gt;We can do this using Field Parameters" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1838.75" y="770" width="162.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xe7zccEJF0COX_zSJT_g-1" target="5Fx2Sjsbr2LlWN2uGl9n-1">
+        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Xe7zccEJF0COX_zSJT_g-1" target="5Fx2Sjsbr2LlWN2uGl9n-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Xe7zccEJF0COX_zSJT_g-1" value="Shipment Analysis" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
@@ -163,20 +163,38 @@
         <mxCell id="Xe7zccEJF0COX_zSJT_g-6" value="We will create a visual, x: boxes(bin), y:total shipments.&lt;br&gt;&lt;br&gt;Add a zoom slider for the x-axis.&lt;br&gt;&lt;br&gt;Finally we will overlay with the low box shipment value" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2020" y="880" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-1" value="Sales Person Performance Table" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="YNlnOtWbf04fgsoT0097-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Fx2Sjsbr2LlWN2uGl9n-1" target="YNlnOtWbf04fgsoT0097-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-1" value="Sales Person Performance Table" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="2276.25" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-3" value="We will add two visuals for Sales Person Performance and Product details on the right half" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-3" value="We will add two visuals for Sales Person Performance and Product details on the right half" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2263.75" y="810" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-4" value="We will add a single visual and using Bookmarks we can switch between two visuals." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-4" value="We will add a single visual and using Bookmarks we can switch between two visuals." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2263.75" y="880" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-5" value="We will create a table for the Sales Person analysis. Cols: Name, measures(cost, profit, profit target indicator)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-5" value="We will create a table for the Sales Person analysis. Cols: Name, measures(cost, profit, profit target indicator)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2240" y="950" width="192.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-6" value="Format the table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-6" value="Format the table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2281.88" y="1020" width="108.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YNlnOtWbf04fgsoT0097-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNlnOtWbf04fgsoT0097-1" target="YNlnOtWbf04fgsoT0097-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNlnOtWbf04fgsoT0097-1" value="Prouct Performance Table" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2466.25" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNlnOtWbf04fgsoT0097-3" value="We will copy the Sale Person Performance table to create a same table for Product Performance table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="870" width="152.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNlnOtWbf04fgsoT0097-4" value="Bookmark" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YNlnOtWbf04fgsoT0097-6" value="Using bookmark we will link the button with the respective report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2636.88" y="930" width="146.25" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
