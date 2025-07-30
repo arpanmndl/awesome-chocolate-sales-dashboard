@@ -163,7 +163,7 @@
         <mxCell id="Xe7zccEJF0COX_zSJT_g-6" value="We will create a visual, x: boxes(bin), y:total shipments.&lt;br&gt;&lt;br&gt;Add a zoom slider for the x-axis.&lt;br&gt;&lt;br&gt;Finally we will overlay with the low box shipment value" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2020" y="880" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="YNlnOtWbf04fgsoT0097-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Fx2Sjsbr2LlWN2uGl9n-1" target="YNlnOtWbf04fgsoT0097-1">
+        <mxCell id="YNlnOtWbf04fgsoT0097-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5Fx2Sjsbr2LlWN2uGl9n-1" target="YNlnOtWbf04fgsoT0097-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-1" value="Sales Person Performance Table" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
@@ -181,20 +181,71 @@
         <mxCell id="5Fx2Sjsbr2LlWN2uGl9n-6" value="Format the table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2281.88" y="1020" width="108.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNlnOtWbf04fgsoT0097-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNlnOtWbf04fgsoT0097-1" target="YNlnOtWbf04fgsoT0097-4">
+        <mxCell id="YNlnOtWbf04fgsoT0097-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YNlnOtWbf04fgsoT0097-1" target="YNlnOtWbf04fgsoT0097-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YNlnOtWbf04fgsoT0097-1" value="Prouct Performance Table" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+        <mxCell id="YNlnOtWbf04fgsoT0097-1" value="Prouct Performance Table" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2466.25" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNlnOtWbf04fgsoT0097-3" value="We will copy the Sale Person Performance table to create a same table for Product Performance table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YNlnOtWbf04fgsoT0097-3" value="We will copy the Sale Person Performance table to create a same table for Product Performance table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2450" y="870" width="152.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNlnOtWbf04fgsoT0097-4" value="Bookmark" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YNlnOtWbf04fgsoT0097-4" target="XfFjO2U5KzVTpYXRLAdN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNlnOtWbf04fgsoT0097-4" value="Bookmark" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="2650" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNlnOtWbf04fgsoT0097-6" value="Using bookmark we will link the button with the respective report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YNlnOtWbf04fgsoT0097-6" value="Using bookmark we will link the button with the respective report" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2636.88" y="930" width="146.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-1" value="We will add a slicer so that we can see the reports for specific categories or specific country of the products" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="990" width="146.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-2" value="Bookmark error fix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2655.62" y="1010" width="108.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-3" value="to fix it we will make sure that the bookmarks are not saving the data.&lt;br&gt;We can do that by click on the ellipse(...) of the bookmarks and uncheck the data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2609.07" y="1050" width="201.88" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XfFjO2U5KzVTpYXRLAdN-4" target="XfFjO2U5KzVTpYXRLAdN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-4" value="Filter panel design" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2853.12" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-6" value="We will add a rectanhle shape on the left end side for the slicer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="1070" width="146.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-7" value="We added two button slicers - one for product categories and one for geo loacations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="1130" width="146.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-8" value="At the bottom of the pane we will add one more button that will give info abot the underlysing info of the report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2828.12" y="1240" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-9" value="It will show some sort of information when clicked" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="1300" width="146.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-10" value="HW" style="rounded=1;whiteSpace=wrap;html=1;rotation=-20;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="1230" width="58.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-11" value="Creating a Tooltip Page" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-13" value="Using this tooltip we can point at anything and can get more info about it." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3046.88" y="1050" width="146.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-14" value="We have to add a new page named Trend Tooltip" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3046.88" y="1110" width="146.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-15" value="Change the Page Type in Page Info under Formatting to Tooltip.&lt;br&gt;This will create a small canvas where we will build the tooltip visual." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3033.4500000000003" y="1160" width="173.12" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XfFjO2U5KzVTpYXRLAdN-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=15;endSize=5.21;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2914" y="1190" as="sourcePoint" />
+            <mxPoint x="2913.81" y="1240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
